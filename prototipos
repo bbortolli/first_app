@@ -1,0 +1,33 @@
+classe : skinCsgo
+	string : weapon (ak, m4a1-s, m4a4...)
+	string : skin (redline, valence, water elemental ..)
+	int : exterior (0 = bs, 1 = ww, 2 = ft, 3 = mw, 4 = fn)
+	bool : stattrak (0 n tem, 1 tem)
+	bool : souvenir
+	
+classe : skinDota
+	string : nome
+	string : hero
+	string : type (genuine, imortal)
+	bool : gem
+	
+classe : user
+	string : login
+	string : password
+	string : steamProfile
+	bool : premium
+	int : activeOffers
+
+add()
+{
+	if(!premium)
+		if this.activeOffers < 2
+			postar()
+		else
+			msg(limite atingido)
+	else
+		postar()
+
+
+
+
