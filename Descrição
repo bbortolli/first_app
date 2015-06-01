@@ -1,0 +1,12 @@
+/* O projeto terá como finalidade anuncios de skins de csgo/dota 2 na plataforma mobile
+havera dois tipos de usuarios pagantes(premium) e não pagantes(free).
+Todos usuarios terão direito:
+- Chat para concluir a negociocao.
+- Sistema de reputacao.
+Usuarios Free terão direito: 
+- Dois anuncios por dia, os mesmos serão mantidos pelo periodo de 48hrs.
+- Limite 1 item por anuncio, o mesmo pode receber ilimitados itens na oferta!
+Usuarios Premium terão direito:
+- Anuncios ilimitados, os mesmos serão mantidos pelo periodo de 1 semana.
+- Anuncios Premium terão destaque.
+*/
