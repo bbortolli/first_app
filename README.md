@@ -1,2 +1,2 @@
 # first_app
-A comunnity to anounce skins of csgo/dota
+A community to announce your skins of csgo/dota
