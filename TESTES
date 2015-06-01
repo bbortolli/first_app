@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JSON Object Creation in JavaScript</h2>
+
+<p id="demo"></p>
+
+<script>
+var text = '{"descricao":[{"name":"p250","valor":100},{"name":"m4as2","valor":1000}]}';
+
+var obj = JSON.parse(text);
+
+document.getElementById("demo").innerHTML =
+obj.descricao[1].name
+;
+</script>
+
+</body>
+</html> // ESSA PORRA VAI SALVAR VIDAS
